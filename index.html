@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="time" id="Clock" onload="showTime()"><div id="h"></div><div class="colon">:</div><div id="m"></div></div>
+        <div class="clock">
+            <div class="mode">
+                <div class="moon"><img src="./img/moon.png" alt="" srcset=""></div>
+                <div class="sun"><img src="./img/sun.png" alt="" srcset=""></div>
+            </div>
+            <div class="h" data-hour></div>
+            <div class="m" data-minute></div>
+            <div class="s" data-second></div>
+        </div>
+    </div>
+    <p>Credit by <a href="https://github.com/nabilotchi">NABIL OTCHI</a></p>
+    <script src="./js/app.js"></script>
+</body>
+</html>
